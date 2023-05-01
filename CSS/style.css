@@ -191,7 +191,7 @@ a.boton:hover {
    font-weight: bold;
 }
 .img-principal{
-   height: 800px;
+   height: 100%;
    filter:brightness(0.5);
 }
 
