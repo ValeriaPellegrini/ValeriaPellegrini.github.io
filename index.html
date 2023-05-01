@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<!-- Required meta tags -->
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+
+<!-- Bootstrap CSS -->
+
+<link href="css/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+ 
+
+<title>TP_Integrador</title>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+            <img src="Assets/codoacodo.png" alt="logo">
+            <h2> Conf  Bs As</h2>
+    
+    </div>
+    
+    <nav>
+        <a  class= "sin" href="#">La Conferencia</a>
+        <a  class= "sin" href="#orador">Los oradores</a>
+        <a  class= "sin" href="#lugaryfecha">El lugar y la fecha</a>
+        <a  class= "sin" href="#convOrador">Conviértete en Orador</a>
+        <a  class="boton" href="./page/comprarTicket.html">Comprar tickets</a>
+    </nav>
+
+
+</header>
+
+<main>
+    <img class="img-principal" src="./Assets/hawaii.jpg" alt="Palacio de agua de Buenos Aires">        
+     <div class="container-conferencia">
+        <h1>Conf BS As</h1>
+         <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+         </p>
+         <div class="container-enlace">
+            <a class="enlace-1" href="#convOrador">Quiero ser orador</a>
+            <a class= "enlace-2" href="./Page/comprarTicket.html">Comprar Tichet</a>
+         </div>
+     </div>
+</main>
+    <h6>CONOCE A LOS</h6>
+    <h4 id="orador"> ORADORES </h4>
+    <section class="container-oradores">
+        <div class="card">
+            <img src="./Assets/steve.jpg" alt="Genio Steve">
+            <div class="mini-enlaces">
+                <a class="enlace-3" href="#">Javascritp</a>
+                <a class="enlace-4" href="#">React </a>
+            </div>
+            <h3>Steve Job</h3>
+            <p>Steven Paul Jobs fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company. Condecorado con la Medalla Nacional de Tecnología por el presidente estadounidense Ronald Reagan. En 2004, Premio al Visionario en los Premios Billboard de Entretenimiento Digital.</p>
+        </div>
+        <div class="card">
+            <img src="./Assets/Bill.jpg" alt="Genio Bill">
+            <div class="mini-enlaces">
+                <a class="enlace-3" href="#">Javascritp</a>
+                <a class="enlace-4" href="#">React </a>
+             </div>
+            <h3>Bill Gates</h3>
+            <p>William Henry Gates III, es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto Paul Allen. Durante su carrera en Microsoft, Gates ocupó los cargos de presidente, director ejecutivo, presidente y arquitecto jefe de software, además de ser el mayor accionista individual hasta mayo de 2014. Fue uno de los principales empresarios de la revolución de las microcomputadoras de las décadas de 1970 y 1980.</p>
+        </div>
+        <div class="card">
+            <img src="./Assets/ada.jpeg" alt="Genia Ada">
+            <div class="mini-enlaces">
+                <a class="enlace-5" href="#">Negocios</a>
+                <a class="enlace-6" href="#">Startups </a>
+            </div>
+            <h3>Ada Lovelace</h3>
+            <p>Augusta Ada King, condesa de Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica. Fue la primera en reconocer que la máquina tenía aplicaciones más allá del cálculo puro y en haber publicado lo que se reconoce hoy como el primer algoritmo destinado a ser procesado por una máquina, por lo que se la considera como la primera programadora de ordenadores.</p>
+        </div>
+    </section>
+<br>
+    <section class="row" id="lugaryfecha">
+
+            <div class="col-6">
+                <img src="./Assets/honolulu.jpg" alt="imagen lateral" style=" width: 100%; height: 100%;">
+            </div>
+    
+            <div class="col-6" style=" background-color: rgb(37, 37, 37, 0.7);">
+                <h3>Bs As - Octubre </h3>
+                    <p>Buenos Aires es la provincia y localidad más grande de Argentina. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado Honolulu han formado una ciudad-condado consolidado que cubre toda la ciudad (aproximadamente 60km cuadrados de superficie)</p>
+                <br>
+                <button><a class="enlace-7" href="https://es.wikipedia.org/wiki/Honolulu"> Conoce más</a></button>   
+            </div>
+        
+    </section>
+
+    <section id="convOrador">
+        <br>
+        <h4>Conviértete en un</h4>
+        <h2 class="centrar">ORADOR</h2>
+        <p class="centrar">Anótate como orador para dar una charla ignite. Cuéntanos de qué quiere hablar!</p>
+         <form action>
+            <input class="focus-ring" type="text" value="Nombre">
+            <input class="focus-ring" type="text" value="Apellido">
+            <br>
+            <br>
+            <textarea class="focus-ring" type="text" cols="50" rows="8"> Sobre qué quieres hablar?</textarea>
+            <p>Recuerda incluir un título sobre tu charla 💡</p> 
+            <button type="submit" id="boton-enviar">ENVIAR</button>
+            
+         </form>
+        
+     </section>
+     <br>
+     <section class="pie">
+     <footer>
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Contáctanos</a>
+        <a href="">Prensa</a>
+        <a href="">Conferencias</a>
+        <a href="">Términos y Condiciones</a>
+        <a href="">Privacidad</a>
+        <a href="">Estudiantes</a>
+    </footer>
+    </section>
+
+
+
+
+
+ 
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+ 
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+ 
+
+</body>
+
+</html>
